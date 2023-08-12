@@ -1,0 +1,129 @@
+.home-background {
+  height: 90vh;
+  background: linear-gradient(240deg, #343434 50%, #2f2f2f 50%);
+  background-size: cover;
+  background-clip: border-box;
+  box-sizing: border-box;
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+}
+.home-heading-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  align-items: center;
+}
+.home-heading {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.home-description {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.home-container h1 {
+  margin-bottom: 0;
+  color: rgb(134, 124, 124);
+  font-weight: 500;
+}
+
+.blue {
+  font-weight: bold;
+  color: orange;
+  font-size: 1.5rem;
+  position: relative;
+  width: 70%;
+}
+
+.button {
+  position: relative;
+  color: purple;
+  background-color: #272727;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.9em;
+  transform: none;
+  cursor: pointer;
+  border: 3px solid purple;
+  font-weight: 600;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.32),
+              0 6px 16px 0 rgba(0, 0, 0, 0.24),
+              0 6px 24px 0 rgba(0, 0, 0, 0.20),
+              0 6px 32px 0 rgba(0, 0, 0, 0.14);
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: calc(100% + 20px);
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  border-top: 3px solid purple;
+  border-bottom: 3px solid purple;
+  transition: 2s;
+}
+
+.button:before {
+  content: "";
+  height: calc(100% + 20px);
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: -2px;
+  border-left: 3px solid purple;
+  border-right: 3px solid purple;
+  transition: 2s;
+}
+
+.home-heading-container > a:nth-child(3) {
+  padding-top: 7%;
+}
+
+.button:hover:before {
+  transform: rotateY(180deg);
+  border-left: 3px solid purple;
+  border-right: 3px solid purple;
+}
+
+.button:hover:after {
+  transform: rotateX(180deg);
+  border-top: 3px solid purple;
+  border-bottom: 3px solid purple;
+}
+@media (max-width: 800px){
+  .home-background {
+    height: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .home-background {
+    height: 100%;
+  }
+  .home-container {
+    height: 85%;
+  }
+  .home {
+    background: none;
+    background-color: #f5f5ff;
+  }
+  .home-heading {
+    font-size: 2rem;
+  }
+  .blue {
+    font-size: 1rem;
+    width: 90%;
+  }
+  .home-heading-container > a:nth-child(3) {
+    padding-top: 12%;
+  }
+}

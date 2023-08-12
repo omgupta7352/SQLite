@@ -1,0 +1,239 @@
+/* Extra CSS */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.row,
+.col-md-3,
+.col-md-9 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.col-md-3{
+  background-color: rgb(60, 55, 55);
+  border-right: 1.5px solid rgb(183, 181, 181);
+}
+body {
+  font-family: sans-serif;
+}
+.logo {
+  padding: 0.5rem 2rem;
+}
+.editor-area {
+  height: 90vh;
+  overflow: auto;
+  background-color: rgb(60, 55, 55);
+}
+
+/* Sidebar */
+
+.sidebar {
+  border-radius: 6px;
+  margin: 1rem 1rem 1rem 1rem;
+  /* min-height: 85vh; */
+  height: 85vh;
+  overflow: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: 1px solid whitesmoke;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.32),
+              0 6px 16px 0 rgba(0, 0, 0, 0.24),
+              0 6px 24px 0 rgba(0, 0, 0, 0.20),
+              0 6px 32px 0 rgba(0, 0, 0, 0.14);
+}
+.sidebar-item {
+  height: 40vh;
+}
+.sidebar .placeholder-text {
+  font-size: 1.5rem;
+  height: 50%;
+}
+
+div.sidebar-item:nth-child(2) {
+  margin-top: 5%;
+}
+
+/*.primary {
+  color: var(--atlan);
+}*/
+.secondary {
+  color: green;
+}
+.text-1 {
+  color: yellow;
+  font-weight: 700;
+}
+.text-2 {
+  color: whitesmoke;
+  font-weight: 500;
+  font-style: italic;
+}
+.editor {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 6px;
+  background: whitesmoke;
+  background-color: rgb(37, 37, 37);
+  margin: 1rem;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.32),
+              0 6px 16px 0 rgba(0, 0, 0, 0.24),
+              0 6px 24px 0 rgba(0, 0, 0, 0.20),
+              0 6px 32px 0 rgba(0, 0, 0, 0.14);
+}
+.CodeMirror {
+  border: 4px solid whitesmoke;
+}
+.editor-panel {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 150px;
+  margin: 0rem 0rem 0.2rem 0rem;
+}
+.btn button {
+  font-weight: 700;
+  height: 40px;
+  width: 100%;
+  font-size: 1rem !important;
+  border-radius: 6px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.32),
+              0 6px 16px 0 rgba(0, 0, 0, 0.24),
+              0 6px 24px 0 rgba(0, 0, 0, 0.20),
+              0 6px 32px 0 rgba(0, 0, 0, 0.14);
+}
+.primary-btn button {
+  background: indigo;
+  border: none;
+}
+.secondary-btn button {
+  border: 3px solid orange;
+  background-color: black;
+  color: orange;
+}
+.alert-btn button {
+  background: violet;
+  
+}
+.query-results {
+  padding: 0.5rem 1rem;
+  overflow: clip;
+  /* height: 90vh; */
+}
+.query-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.3rem 0.5rem;
+}
+.query-details .export-btn button {
+  background-color: transparent;
+  border: none;
+  color:fuchsia;
+}
+.query-details p {
+  margin: 0%;
+  padding: 0;
+}
+thead {
+  background-color: crimson;
+  color: white;
+  font-weight: 700;
+}
+td,
+th {
+  border: 1px solid #fff !important;
+  text-align: left;
+  padding: 8px;
+  color: whitesmoke;
+}
+
+.query-table {
+  margin: 0rem 1.5rem 1rem 0rem;
+  /* width: 100%; */
+  height: 72vh;
+  overflow: auto;
+}
+.query-table table {
+  width: 100%;
+}
+.query-results .details {
+  display: flex;
+  justify-content: space-evenly;
+}
+.query-results .tabs {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+.query-results .tab-bar {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(153, 153, 23);
+  display: flex;
+  align-items: center;
+}
+.query-results .tabs.active {
+  color: var(--white);
+  background-color: var(--atlan);
+  border-radius: 6px 6px 0px 0px;
+}
+.query-wrapper {
+  max-height: 35vh;
+  overflow: auto;
+}
+.query {
+  padding: 0.2rem;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+.query code {
+  background-color: rgb(37, 37, 37);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.query-results .placeholder-text {
+  font-size: 2rem;
+}
+.placeholder-text {
+  color: rgba(0, 0, 0, 0.35);
+  font-weight: 700;
+  font-size: 2.5rem;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+  text-align: center;
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+.search-bar input:focus {
+  outline: none !important;
+}
+
+code {
+  color: blue !important;
+}
+
+@media (max-width: 768px) {
+  .editor {
+    font-size: 0.9em;
+  }
+  .editor-panel {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
