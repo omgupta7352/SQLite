@@ -1,8 +1,8 @@
 # SQLite
 
-![SQLite](ime1.png)
-![](ime2.png)
-![](ime2.png)
+![SQLite](ima1.png)
+![](ima2.png)
+![](ima3.png)
 
 The primary goal of SQLite is to facilitate users in executing SQL queries within an online editor and subsequently examining the resulting outputs. This encompasses the ability to run diverse queries on tables and review corresponding table data. Some of the queries supported include ALTER TABLE, ANALYZE, CREATE VIEW, and DROP TABLE.
 ## Tech-Stack Used:
