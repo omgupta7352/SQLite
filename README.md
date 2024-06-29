@@ -24,7 +24,7 @@ The primary goal of SQLite is to facilitate users in executing SQL queries withi
 
 ## Demo
 
-You can try out the SQLite live [here](https://omgupta7352.github.io/draw-app/).
+You can try out the SQLite live [here](https://sqleditor-sqlite-omgupta.netlify.app/).
 
 ## Technologies Used
 
@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/sqlite_project.git
+    git clone https://github.com/omgupta7352/SQLite.git
     ```
 
 2. Navigate to the project directory:
