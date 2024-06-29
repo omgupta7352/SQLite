@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd sqlite_project
+    cd SQLite
     ```
 
 3. Install the dependencies:
