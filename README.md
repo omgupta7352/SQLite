@@ -1,4 +1,4 @@
-# SQLite
+# SQLite 🧑‍💻
 
 ![SQLite](ima1.png)
 ![](ima2.png)
